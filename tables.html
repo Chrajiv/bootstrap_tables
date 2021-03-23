@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tables</title>
+	<!-- css links -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/mdb.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style type="text/css">
+		table{
+			box-shadow: 0 5px 10px black;
+			margin-bottom: 20px;
+		}
+.lightred{
+	background-color: lightsalmon;
+}
+.bg-light-green{
+	background-color: lightgreen;
+}
+
+	</style>
+</head>
+<body>
+     <nav class="navbar navbar-dark bg-dark ">
+     	<a href="#">BS tables</a>
+     	
+     </nav>
+
+
+	<!--  start here -->
+<div class="container">
+<pre>
+.table
+.table-striped
+.table-bordered
+.table-borderless
+.table-dark(colors)
+.table-hover
+
+
+
+</pre>
+<!-- 1)normal table without classes -->
+
+<table>
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Email Id</th>
+			<th>Designation</th>
+			<th>Company</th>
+			<th>City</th>
+		</tr>
+	</thead>
+    <tbody>
+    	<tr>
+    	<td>1</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>2</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+<tr>
+    	<td>3</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>4</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+<!-- 2)table with table class ,table-hover  -->
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Email Id</th>
+			<th>Designation</th>
+			<th>Company</th>
+			<th>City</th>
+		</tr>
+	</thead>
+    <tbody>
+    	<tr>
+    	<td>1</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>2</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+<tr>
+    	<td>3</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>4</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+<!-- 3)table with table class ,table-hover,table-bordered  -->
+
+<table class="table table-hover table-borderless">
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Email Id</th>
+			<th>Designation</th>
+			<th>Company</th>
+			<th>City</th>
+		</tr>
+	</thead>
+    <tbody>
+    	<tr>
+    	<td>1</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>2</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+<tr>
+    	<td>3</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>4</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+
+
+
+<!-- 4)table with table class ,table-hover,table-dark  -->
+
+<table class="table table-hover table-dark table-bordered">
+	<thead>
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Email Id</th>
+			<th>Designation</th>
+			<th>Company</th>
+			<th>City</th>
+		</tr>
+	</thead>
+    <tbody>
+    	<tr>
+    	<td>1</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>2</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+<tr>
+    	<td>3</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>4</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+
+
+
+<!-- 5)table with table class ,table-hover,table-header thick color,body light color  -->
+
+<table class="table table-hover text-center text-uppercase text-white">
+	<thead class="bg-danger">
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Email Id</th>
+			<th>Designation</th>
+			<th>Company</th>
+			<th>City</th>
+		</tr>
+	</thead>
+    <tbody class="lightred">
+    	<tr>
+    	<td>1</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>2</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+<tr>
+    	<td>3</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>4</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+
+
+
+<!-- 6)table with table class ,table-stripped  -->
+
+<table class="table  table-striped table-bordered ">
+	<thead class="bg-success" >
+		<tr>
+			<th>S.no</th>
+			<th>Name</th>
+			<th>Email Id</th>
+			<th>Designation</th>
+			<th>Company</th>
+			<th>City</th>
+		</tr>
+	</thead>
+    <tbody  class="bg-light-green">
+    	<tr>
+    	<td>1</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>2</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+<tr>
+    	<td>3</td>
+    	<td>Hayathy </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+	<tr>
+    	<td>4</td>
+    	<td>Srujana </td>
+    	<td>Hayathi123@gmail.com</td>
+    	<td>HR Manager</td>
+    	<td>Infosys</td>
+    	<td>Vizag</td>
+
+         </tr>
+
+
+
+    </tbody>
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- js links -->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/popper.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/mdb.js"></script>
+	
+</body>
+</html>
